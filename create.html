@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create New Plan</title>
+    <link rel="stylesheet" type="text/css" href="create.css">
+</head>
+<body>
+    <header>
+        <h1>Create New Plan</h1>
+    </header>
+    <div class="container">
+        <div class="create-plan-form">
+            <form id="create-plan-form">
+                <div class="form-group">
+                    <label for="plan-title">Plan Title</label>
+                    <input type="text" id="plan-title" name="plan-title" required>
+                </div>
+                <div class="form-group">
+                    <label for="plan-description">Plan Description</label>
+                    <textarea id="plan-description" name="plan-description" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="start-date">Start Date</label>
+                    <input type="date" id="start-date" name="start-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="end-date">End Date</label>
+                    <input type="date" id="end-date" name="end-date" required>
+                </div>
+                <button type="submit">Create Plan</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
